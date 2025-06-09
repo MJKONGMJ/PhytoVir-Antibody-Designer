@@ -26,5 +26,4 @@ poetry config virtualenvs.in-project true
 poetry config virtualenvs.create false
 poetry install --no-ansi
     ## build USalign
-cd /contetn/RFantibody/include/USalign
-make
+cd /content/RFantibody/include/USalign && make
