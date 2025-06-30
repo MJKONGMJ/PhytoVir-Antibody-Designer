@@ -18,6 +18,7 @@ wget https://data.dgl.ai/wheels/torch-2.3/cu118/dgl-2.4.0%2Bcu118-cp310-cp310-ma
 #install dependencies
 cd /content/RFantibody
     ## create & activate a virtual env for RFantibody
+apt-get update
 apt-get install -y python3-pip python3.10-venv
 python3 -m venv rfantibody_env
 source rfantibody_env/bin/activate
